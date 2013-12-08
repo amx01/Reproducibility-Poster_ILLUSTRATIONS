@@ -1,4 +1,4 @@
-Office hour summary:
+Office hour (12/7/2013) summary:
 - assumptions of reproducibility: what are the assumptions that make reproducibility possible. For example, recall the first project we did in this class for making reproducible code. We have to make a readme file to clearly indicate how to make instructions to regenerate the work.
 
 - tools:
