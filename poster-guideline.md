@@ -4,7 +4,7 @@ Office hour summary:
 - tools:
 During the data science faire, we will have a table to set up with monitors that can show people around the products of this class. We can show people some examples and product of the tools involved with reproducibility in the data science faire. Users are able to try on these tools, such as the ipython notebook
 
--Goal of presenting poster during the faire:
+- Goal of presenting poster during the faire:
 we can introduce these tools we learned in class to people who come to the faire by showing them the work we have produced in this class using those tools. 
 
 
