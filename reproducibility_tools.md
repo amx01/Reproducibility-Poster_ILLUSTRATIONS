@@ -1,4 +1,4 @@
-# The Tools of Reproducible Science
+# The Tools of Reproducible Science in Stat 157
 
 ## IPython Notebook
 
