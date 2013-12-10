@@ -22,8 +22,9 @@ In this repo, you will find the data visualization from students in response to 
 ![fq2](https://github.com/amx01/Reproducibility-Poster_ILLUSTRATIONS/blob/master/survey/word-fq2.jpg?raw=true)
 
 
-
-** 3 or above Word Frequencies**
+**3 or above Word Frequencies**
 ![fq3](https://github.com/amx01/Reproducibility-Poster_ILLUSTRATIONS/blob/master/survey/word-fq3.jpg?raw=true)
+
+
 
 The bubble cloud framework is built on top of [vallandingham](http://vallandingham.me/building_a_bubble_cloud.html)
