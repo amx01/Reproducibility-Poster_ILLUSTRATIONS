@@ -4,7 +4,7 @@ import csv
 import string
 
 # Parse text file of response in
-with open("/Users/aliceman/School/Fall13/STAT157/survet/reproducibility-response.txt") as txtfile:
+with open("/Users/aliceman/School/Fall13/STAT157/survey/reproducibility-response.txt") as txtfile:
     data = txtfile.read().replace('\n','')
 
 # remove punctuations
@@ -36,7 +36,7 @@ values = ['count'] + values
 #output to csv
 rows = zip(keys,values)
 
-with open("/Users/aliceman/School/Fall13/STAT157/survet/repro.csv","wb") as f:
+with open("/Users/aliceman/School/Fall13/STAT157/survey/repro.csv","wb") as f:
     writer = csv.writer(f)
     for row in rows:
         writer.writerow(row)
@@ -58,7 +58,7 @@ values = ['count'] + values
 #output to csv
 rows = zip(keys,values)
 
-with open("/Users/aliceman/School/Fall13/STAT157/survet/repro2.csv","wb") as f:
+with open("/Users/aliceman/School/Fall13/STAT157/survey/repro2.csv","wb") as f:
     writer = csv.writer(f)
     for row in rows:
         writer.writerow(row)
@@ -70,9 +70,9 @@ values = []
 for i in fd.values():
     if (i>2):
         values += [i]
-len(values) #206
+len(values) 
 
-keys = fd.keys()[:206]
+keys = fd.keys()[:len(values)]
 
 keys = ['name'] + keys
 values = ['count'] + values
@@ -80,7 +80,7 @@ values = ['count'] + values
 #output to csv
 rows = zip(keys,values)
 
-with open("/Users/aliceman/School/Fall13/STAT157/survet/repro2.csv","wb") as f:
+with open("/Users/aliceman/School/Fall13/STAT157/survey/repro3.csv","wb") as f:
     writer = csv.writer(f)
     for row in rows:
         writer.writerow(row)        
