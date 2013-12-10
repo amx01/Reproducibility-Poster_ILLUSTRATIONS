@@ -8,4 +8,4 @@ Emphasis has been placed on being the first to publish, with pressures stemming 
 
 In the context of this class, reproducibility was a highly emphasized criterion for our work. We used multiple data processing tools such as R and the iPython Notebook. When using these tools, we were cognisant that any processes we used and code we scripted must be reproducible. Rather than write functions using explicit inputs, we created generic, paramatrized functions that could easily take in any new or different data sources. We utilized GitHub to publish our resources and results, and created files with step-by-step directions on how to run our code to ultimately reproduce the outcomes we procured.
 
-#Authors: Joy, Lorraine, Alice
+Authors: Joy, Lorraine, Alice
